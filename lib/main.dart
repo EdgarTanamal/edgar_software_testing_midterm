@@ -1,10 +1,9 @@
 import 'package:edgar_software_testing_midterm/page/login_view.dart';
 import 'package:edgar_software_testing_midterm/page/logout_view.dart';
 import 'package:flutter/material.dart';
-import 'package:provider/provider.dart';
+import 'package:provider/provider.dart';    
 import 'viewmodels/auth_viewmodel.dart';
-import 'page/login_view.dart';
-import 'page/logout_view.dart';
+
 
 void main() {
   runApp(MyApp());
@@ -27,3 +26,6 @@ class MyApp extends StatelessWidget {
     );
   }
 }
+
+
+
